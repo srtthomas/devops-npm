@@ -44,7 +44,7 @@
             .domain([0, d3.max(data)])
             .range([height - margin.bottom, margin.top]);
 
-        // Color scale from red (min value) to green (max value)
+        // Color scale from red (min value) to yellow (max value)
         const colorScale = d3.scaleLinear()
             .domain([d3.min(data), d3.max(data)])
             .range(["red", "yellow"]);
